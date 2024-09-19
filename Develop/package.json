@@ -6,23 +6,36 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/rjgordon26/Progressive-Budget.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/rjgordon26/Progressive-Budget.git"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/rjgordon26/Progressive-Budget.git",
   "dependencies": {
+    "axios": "^0.18.0",
+    "add": "^2.0.6",
     "compression": "^1.7.4",
     "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "lite-server": "^2.5.3",
-    "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
+    "mongoose": "^5.10.19",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.2.5",
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "plugin": "^0.3.3",
+    "sequelize": "^6.3.5",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^2.0.6"
   }
 }
